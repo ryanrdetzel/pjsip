@@ -3453,7 +3453,63 @@
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
-			</File>
+            </File>
+            <File RelativePath="..\src\pjmedia\cb_port.c">
+                <FileConfiguration
+                    Name="Release|Win32"
+                    >
+                    <Tool
+                        Name="VCCLCompilerTool"
+                        AdditionalIncludeDirectories=""
+                        PreprocessorDefinitions=""
+                    />
+                </FileConfiguration>
+                <FileConfiguration
+                    Name="Debug|Win32"
+                    >
+                    <Tool
+                        Name="VCCLCompilerTool"
+                        AdditionalIncludeDirectories=""
+                        PreprocessorDefinitions=""
+                    />
+                </FileConfiguration>
+                <FileConfiguration
+                    Name="Debug-Static|Win32"
+                    >
+                    <Tool
+                        Name="VCCLCompilerTool"
+                        AdditionalIncludeDirectories=""
+                        PreprocessorDefinitions=""
+                    />
+                </FileConfiguration>
+                <FileConfiguration
+                    Name="Release-Dynamic|Win32"
+                    >
+                    <Tool
+                        Name="VCCLCompilerTool"
+                        AdditionalIncludeDirectories=""
+                        PreprocessorDefinitions=""
+                    />
+                </FileConfiguration>
+                <FileConfiguration
+                    Name="Debug-Dynamic|Win32"
+                    >
+                    <Tool
+                        Name="VCCLCompilerTool"
+                        AdditionalIncludeDirectories=""
+                        PreprocessorDefinitions=""
+                    />
+                </FileConfiguration>
+                <FileConfiguration
+                    Name="Release-Static|Win32"
+                    >
+                    <Tool
+                        Name="VCCLCompilerTool"
+                        AdditionalIncludeDirectories=""
+                        PreprocessorDefinitions=""
+                    />
+                </FileConfiguration>
+            </File>
 			<File
 				RelativePath="..\src\pjmedia\clock_thread.c"
 				>
@@ -7275,6 +7331,10 @@
 				RelativePath="..\include\pjmedia\avi_stream.h"
 				>
 			</File>
+            <File
+               RelativePath="..\include\pjmedia\cb_port.h"
+               >
+            <File>
 			<File
 				RelativePath="..\include\pjmedia\bidirectional.h"
 				>
